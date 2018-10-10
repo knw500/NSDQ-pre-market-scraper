@@ -1,7 +1,7 @@
 import urllib2
 from bs4 import BeautifulSoup
 
-def getPremarketPrices(symbols):
+def getPremarketChange(symbols):
 
 	results = []
 

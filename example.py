@@ -5,7 +5,7 @@ symbols = ["GOOG", "AAPL", "NVDA", "TSLA", "BABA", "DBX", "V", "EA"]
 
 # Use the scraper to get the prices
 # Results are returned as tuples containing the symbol name and the percentage change
-results = NSDQScrape.getPremarketPrices(symbols)
+results = NSDQScrape.getPremarketChange(symbols)
 
 #Nicely print the output
 margin = max(len(results[t][0]) for t in xrange(0, len(results))) + 1
